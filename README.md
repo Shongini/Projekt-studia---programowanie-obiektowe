@@ -2,7 +2,7 @@
 
 
 # Instrukcja projektu: 
-A. Wybierz dowolny rzeczywisty obiekt „mechaniczny” lub proces technologiczny: narzędzie, maszyna, część urządzenia (np. młotek wiertarka, koło zębate, przekładnia, zegarek, śruba, frezowanie, wytaczanie itp.), którego nazwa zaczyna się na pierwszą literę twojego imienia). Przedstaw działanie wybranego przedmiotu/mechanizmu za pomocą modelu obiektowego. Przetestuj działanie obiektu poprzez zaimplementowanie go w działającym programie (wybrane 2-3 funkcjonalności, wybrany dowolnie język obiektowy, polecany C++).
+<b>1. </b> Wybierz dowolny rzeczywisty obiekt „mechaniczny” lub proces technologiczny: narzędzie, maszyna, część urządzenia (np. młotek wiertarka, koło zębate, przekładnia, zegarek, śruba, frezowanie, wytaczanie itp.), którego nazwa zaczyna się na pierwszą literę twojego imienia). Przedstaw działanie wybranego przedmiotu/mechanizmu za pomocą modelu obiektowego. Przetestuj działanie obiektu poprzez zaimplementowanie go w działającym programie (wybrane 2-3 funkcjonalności, wybrany dowolnie język obiektowy, polecany C++).
 
 1) Projekt należy przygotować jako dokument i wysłać w postaci pdf na platformie ms teams (dokument musi zawierać imię, nazwisko, datę oraz numer grupy).
 
