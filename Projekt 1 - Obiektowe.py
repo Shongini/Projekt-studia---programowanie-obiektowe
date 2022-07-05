@@ -12,10 +12,12 @@ class Zegarek:
         print("To Zegarek marki", self.marka)
 
     def wyprodukowanie(self):
-        if self.rokprodukcji >= 2022-2004:
-            print("Twój zegarek osiągnał pełnoletność.")
+        if 2022 - int(self.rokprodukcji) >= 2022-2004:
+            print("Twój Przyjaciel osiągnał pełnoletność.")
+        if int(self.rokprodukcji) > 2022:
+            print("Twój Przyjaciel chyba jeszcze nie został wyprodukowany :)")
         else:
-            print("Twój zegarek powinien mieć prawnego opiekuna.")
+            print("Twój Przyjaciel powinen mieć prawnego opiekuna.")
 
     def barwa(self):
         if self.kolor == "Czarny":
@@ -23,8 +25,9 @@ class Zegarek:
         else:
             print("Uwielbia być przez Ciebie noszony.")
 
-Przyjaciel = Zegarek("Omega",25, "Czarny")
-print("Obiekt -", Przyjaciel.marka, Przyjaciel.rokprodukcji,"letni", Przyjaciel.kolor, "\n")
+Przyjaciel = Zegarek(input("Podaj Marke Zegarka: "), int(input("Podaj Rok Produkcji: ")), input("Podaj Kolor: "))
+
+print ("Obiekt - Zegarek", Przyjaciel.marka,",", Przyjaciel.rokprodukcji,"Rok Produkcji",",","Kolor:", Przyjaciel.kolor, "\n")
 
 Przyjaciel.producent()
 Przyjaciel.wyprodukowanie()
